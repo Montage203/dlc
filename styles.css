@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #36393F;
+    color: #D9D9D9;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #202225;
+    color: #FFFFFF;
+}
+
+.product-accordion {
+    margin: 20px;
+}
+
+.accordion-item {
+    border: 1px solid #4E545C;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #2C2F33;
+    color: #D9D9D9;
+}
+
+.accordion-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.accordion-heading h2 {
+    margin: 0;
+}
+
+.accordion-content {
+    padding: 10px;
+    display: none;
+}
+
+.accordion-content.active {
+    display: block;
+}
+
+.product {
+    padding: 10px;
+    border: 1px solid #4E545C;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #2C2F33;
+}
+
+.product h3 {
+    margin: 5px 0;
+}
+
+.product.urgent {
+    border: 2px solid red;
+}
+
+.product.to-check {
+    border: 2px solid orange;
+    background-color: #3A3E42; /* Couleur plus sombre pour les produits sans date à vérifier */
+}
+
+.rayon {
+    position: relative;
+}
+
+.rayon-table {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 4px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    border: 1px solid #4E545C; /* Bordure du tableau */
+}
+
+.rayon-table-cell {
+    width: 100%;
+    height: 100%;
+    border: solid black; /* Bordure des cellules du tableau */
+    background-color: #2C2F33;
+}
+
+.rayon-table-cell.urgent {
+    background-color: red;
+}
+
+.rayon-table-cell.to-check {
+    background-color: orange;
+}
+
+.rayon-table-cell.no-check {
+    background-color: #3A3E42; /* Couleur plus sombre pour les cellules sans produits à vérifier */
+}
+
+.urgent-cell {
+    background-color: red;
+}
+
+.to-check-cell {
+    background-color: yellow;
+}
+
+tr td {border: solid black;}
+table {    width: -webkit-fill-available;
+    height: 10em;}
+td {    background-color: #202225;}
