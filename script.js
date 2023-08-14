@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', () => {
         aisle: "Rayon A",
         floor: "Étage 1",
         column: "Colonne 1",
-        expirationDate: "2023-08-13",
+        expirationDate: "2023-08-14",
         barcode: "123456789",
         inStock: true
     });
@@ -182,7 +182,7 @@ document.addEventListener('DOMContentLoaded', () => {
         aisle: "Rayon A",
         floor: "Étage 2",
         column: "Colonne 6",
-        expirationDate: "2023-08-12",
+        expirationDate: "2023-08-15",
         barcode: "123456785",
         inStock: true
     });
@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', () => {
         aisle: "Rayon A",
         floor: "Étage 3",
         column: "Colonne 6",
-        expirationDate: "2023-08-12",
+        expirationDate: "2023-08-15",
         barcode: "123456781",
         inStock: true
     });
@@ -209,7 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
         aisle: "Rayon B",
         floor: "Étage 3",
         column: "Colonne 2",
-        expirationDate: "2023-08-12",
+        expirationDate: "2023-08-15",
         barcode: "123456780",
         inStock: true
     });
