@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', () => {
         aisle: "Rayon A",
         floor: "Étage 3",
         column: "Colonne 6",
-        expirationDate: "2023-10-15",
+        expirationDate: "2024-01-27",
         barcode: "123456781",
         inStock: true
     });
@@ -209,7 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
         aisle: "Rayon B",
         floor: "Étage 3",
         column: "Colonne 2",
-        expirationDate: "2023-09-17",
+        expirationDate: "2024-09-17",
         barcode: "123456780",
         inStock: true
     });
